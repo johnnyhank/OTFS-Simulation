@@ -52,8 +52,8 @@ for j=1:param.N
 end
 
 % SNR range and Monte Carlo parameters
-SNR_dB_range = 0:1:25;  % From 0dB to 20dB with step size 1dB
-num_monte_carlo = 50;    % Number of Monte Carlo simulations
+SNR_dB_range = 0:1:25;  % From 0dB to 25dB with step size 1dB
+num_monte_carlo = 20;    % Number of Monte Carlo simulations
 
 % Define OTFS types for comparison
 otfs_types = {'OTFS', 'RZP-OTFS', 'RCP-OTFS', 'CP-OTFS', 'ZP-OTFS'};
