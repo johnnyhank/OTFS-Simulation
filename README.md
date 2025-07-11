@@ -1,16 +1,10 @@
 # OTFS (Orthogonal Time Frequency Space) Modulation System
 
-This repository contains a MATLAB implementation of an OTFS (Orthogonal Time Frequency Space) modulation system. The system includes transmitter, channel, and receiver components, along with various OTFS variants such as RZP-OTFS, RCP-OTFS, CP-OTFS, and ZP-OTFS.
+This repository contains a MATLAB implementation of an OTFS (Orthogonal Time Frequency Space) modulation system. The system includes transmitter, channel, and receiver components, along with OTFS variants such as RZP-OTFS, RCP-OTFS, CP-OTFS, and ZP-OTFS.
 
-## System Overview
+Note: The implementation is based on the book "Delay-Doppler Communications
+Principles and Applications" by Yi Hong, Tharaj Thaj and Emanuele Viterbo.
 
-The system is designed with the following parameters:
-- Number of Doppler bins (time slots): N = 16
-- Number of delay bins (subcarriers): M = 64
-- Carrier frequency: 4 GHz
-- Subcarrier spacing: 15 kHz
-- Block duration: T = 1/Δf
-- QAM modulation size: 4 (4-QAM)
 
 ## System Components
 
@@ -83,3 +77,7 @@ The system includes comprehensive performance analysis capabilities:
 
 - MATLAB (with Signal Processing Toolbox)
 - Communication Systems Toolbox
+
+## References
+
+1. 
