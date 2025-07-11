@@ -120,6 +120,3 @@ title('Comparison of Different OTFS Types Performance');
 ylim([1e-4 1]);  % Set y-axis range
 legend('Location', 'southwest');
 ylabel('Average Bit Error Rate (BER)');
-title('Comparison of Different OTFS Types Performance');
-ylim([1e-4 1]);  % Set y-axis range
-legend('Location', 'southwest');

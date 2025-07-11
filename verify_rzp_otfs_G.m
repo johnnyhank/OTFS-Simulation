@@ -1,5 +1,3 @@
-% filepath: /Users/zhenglihan/Documents/MATLAB/OTFS/verify_RZP_OTFS.m
-
 % Test parameters
 M = 4;          % Block size
 N = 2;          % Number of blocks

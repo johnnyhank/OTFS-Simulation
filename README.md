@@ -60,24 +60,25 @@ Features:
 
 ## Performance Analysis
 
-The system includes comprehensive performance analysis capabilities:
+The system includes performance analysis capabilities:
 - BER (Bit Error Rate) vs SNR analysis
-- Monte Carlo simulations
 - Comparison between different OTFS variants
-- Performance visualization through plots
+
+### BER Performance Comparison
+Below shows the BER performance comparison of different OTFS variants:
+
+![BER Performance Comparison](BER_all.jpg)
+
+The figure shows the bit error rate (BER) performance comparison between different OTFS variants (Standard OTFS, RZP-OTFS, RCP-OTFS, CP-OTFS, and ZP-OTFS) under various SNR conditions.
 
 ## Usage
 
 1. Set system parameters in `otfs_simulation.m`
-2. Choose channel model and OTFS variant
-3. Run the simulation
-4. View performance results and BER plots
+2. Run the simulation
+3. View performance results and BER plots
 
 ## Dependencies
 
-- MATLAB (with Signal Processing Toolbox)
-- Communication Systems Toolbox
-
-## References
-
-1. 
+- MATLAB
+  - Signal Processing Toolbox
+  - Communication Systems Toolbox(including DSP System Toolbox)
